@@ -1,0 +1,11 @@
+module Operaciones{
+    struct Usuario {
+        string nombre; 
+        string contra;
+    };
+
+    interface IOperaciones {
+        boolean registrar(in Usuario Ops);
+        boolean iniciarsesion(in Usuario Ops);
+    };
+};
